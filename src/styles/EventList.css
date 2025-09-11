@@ -1,0 +1,26 @@
+/* ページ全体 */
+.event-list-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: #f9fafb; /* 柔らかい背景色 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 見出し */
+.event-list-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+/* カードのコンテナ */
+.event-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  width: 100%;
+  max-width: 1200px;
+}

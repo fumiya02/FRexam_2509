@@ -1,0 +1,20 @@
+.staff-recruit {
+  padding: 40px;
+  background-color: #f9f9f9; /* 背景色（仮） */
+  min-height: 100vh; /* フル画面の高さ */
+}
+
+.staff-heading {
+  margin-bottom: 24px;
+  text-align: center;
+  color: #2c7a7b; /* Chakra UI の teal 系カラー */
+}
+
+.staff-card {
+  margin-bottom: 16px;
+  transition: transform 0.2s ease;
+}
+
+.staff-card:hover {
+  transform: translateY(-4px);
+}
